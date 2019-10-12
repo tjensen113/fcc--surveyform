@@ -89,3 +89,44 @@ body {
 #number-label{
     margin-left: 5%;
 }
+#dropdown{
+    margin-left:5%
+
+}
+#radio-input{
+    margin-left:5%
+}
+#radio-label{
+    margin-left: 5%;
+}
+#checkbox-label{
+    margin-left: 5%;
+}   
+#subscribeNews{
+    margin-left:5%;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    border-radius: 15px;
+    /* margin-bottom:30 20 px; */
+}
+#textarea-label{
+    /* border: 5px solid darkolivegreen;
+    background-color: silver; */
+    margin-top: 25px;
+    width: 75%;
+    margin-left: 5%;
+    
+}
+
+#submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    border-radius: 15px;
+    padding:8px;
+}

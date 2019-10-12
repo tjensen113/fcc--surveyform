@@ -25,17 +25,17 @@
                 <option value="mercedes">Mercedes</option>
                 <option value="audi">Audi</option>
             </select><br>
-            radio-input goes here
+           <div id="radio-label">radio-input goes here</div> 
             <div id="radio-input">
-                <input type="radio" name=" option1"value="option 1">option1<br>
-                <input type="radio"name="option2" value="option 2">optioin2<br>
-                <input type="radio"name="option3" value="option 3">option3<br>
+                <input type="radio" name="option1"value="option 1">option1<br>
+                <input type="radio"name="option1" value="option 2">optioin2<br>
+                <input type="radio"name="option1" value="option 3">option3<br>
                 
             </div>
               <div id="radio-input">
-                <input type="radio" name=" option1"value="option 1">option1<br>
-                <input type="radio"name="option2" value="option 2">optioin2<br>
-                <input type="radio"name="option3" value="option 3">option3<br>
+                <input type="radio" name="option1"value="option 1">option1<br>
+                <input type="radio"name="option1" value="option 2">optioin2<br>
+                <input type="radio"name="option1" value="option 3">option3<br>
                 
               </div>
               <select id="dropdown">
@@ -44,20 +44,20 @@
                 <option value="mercedes">Mercedes</option>
                 <option value="audi">Audi</option>
             </select><br>
-            radio-input goes here
+            <div id="radio-label">radio-input goes here</div>
             <div id="radio-input">
-                <input type="radio" name=" option1"value="option 1">option1<br>
+                <input type="radio" name="option2"value="option 1">option1<br>
                 <input type="radio"name="option2" value="option 2">optioin2<br>
-                <input type="radio"name="option3" value="option 3">option3<br>
+                <input type="radio"name="option2" value="option 3">option3<br>
                 
             </div>
               <div id="radio-input">
-                <input type="radio" name=" option1"value="option 1">option1<br>
+                <input type="radio" name="option2"value="option 1">option1<br>
                 <input type="radio"name="option2" value="option 2">optioin2<br>
-                <input type="radio"name="option3" value="option 3">option3<br>
+                <input type="radio"name="option2" value="option 3">option3<br>
                 
             </div>
-              <p>Would you like to sign up for these features:</p>
+              <p id=checkbox-label>Would you like to sign up for these features:</p>
 
 <form>
   <div>
@@ -65,11 +65,12 @@
     <label for="subscribeNews">Subscribe to newsletter?</label>
   </div>
   <div>
-    <input type="checkbox" id="subscribe-partners" name="subscribe" value="newsletter">
+    <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
     <label for="subscribeNews">Subscribe to Parent Company text alerts?</label>
-  </div>
+  </div><br>
+<div id="textarea-label">In your own words:</div>
 </form>
-<textarea rows="4" cols="50">
+<textarea rows="4" cols="150" id='textarea'>  
 At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
 </textarea>
               <button id="submit">Submit</button>
