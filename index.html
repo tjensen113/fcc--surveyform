@@ -12,12 +12,12 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, quia? Ratione quo ab ad delectus aspernatur aliquid inventore labore praesentium tempora eius? Eos necessitatibus assumenda ratione aliquam repudiandae nihil similique?</p>
     <form id="survey-form">
-            <label for="name" id="name-label">Name:</label><br>
-            <input required type="text" name="name" id="name" placeholder="LastName,FirstName"><br>
+            <label for="name" id="name-label">     Name:</label><br>
+            <input required type="text" name="name" id="name" placeholder="&nbsp LastName,FirstName"><br>
             <label for="email" id="email-label">Email:<br>
-            <input  required type="email" name="email" id="email" placeholder="user@email.com"><br>
+            <input  required type="email" name="email" id="email" placeholder="&nbsp user@email.com"><br>
             <label for="age" id="number-label">Age:<br>
-            <input required type="number"   id="number"name="age" min="1" max="99" placeholder="age"><br><br>
+            <input required type="number"   id="number"name="age" min="1" max="99" placeholder="&nbsp age"><br><br>
 
             <select id="dropdown">
                 <option value="volvo">Volvo</option>
@@ -37,8 +37,27 @@
                 <input type="radio"name="option2" value="option 2">optioin2<br>
                 <input type="radio"name="option3" value="option 3">option3<br>
                 
+              </div>
+              <select id="dropdown">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            radio-input goes here
+            <div id="radio-input">
+                <input type="radio" name=" option1"value="option 1">option1<br>
+                <input type="radio"name="option2" value="option 2">optioin2<br>
+                <input type="radio"name="option3" value="option 3">option3<br>
+                
             </div>
-              <p>Choose your monster's features:</p>
+              <div id="radio-input">
+                <input type="radio" name=" option1"value="option 1">option1<br>
+                <input type="radio"name="option2" value="option 2">optioin2<br>
+                <input type="radio"name="option3" value="option 3">option3<br>
+                
+            </div>
+              <p>Would you like to sign up for these features:</p>
 
 <form>
   <div>
@@ -46,8 +65,8 @@
     <label for="subscribeNews">Subscribe to newsletter?</label>
   </div>
   <div>
-    <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-    <label for="subscribeNews">Subscribe to newsletter?</label>
+    <input type="checkbox" id="subscribe-partners" name="subscribe" value="newsletter">
+    <label for="subscribeNews">Subscribe to Parent Company text alerts?</label>
   </div>
 </form>
 <textarea rows="4" cols="50">
