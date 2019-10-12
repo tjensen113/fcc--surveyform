@@ -111,14 +111,17 @@ textarea{
     margin-right: auto;
     max-width: 90%;
     border-radius: 15px;
+    margin-top:10px;
     /* margin-bottom:30 20 px; */
 }
 #textarea-label{
     /* border: 5px solid darkolivegreen;
     background-color: silver; */
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 75%;
     margin-left: 5%;
+    margin-top:10px;
+
     
 }
 
@@ -129,4 +132,5 @@ textarea{
     max-width: 90%;
     border-radius: 15px;
     padding:8px;
+    margin-top:10px;
 }
