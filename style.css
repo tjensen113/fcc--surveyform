@@ -133,4 +133,6 @@ textarea{
     border-radius: 15px;
     padding:8px;
     margin-top:10px;
+    background-color: rgb(116, 186, 243);
+    border:2px solid rgb(107, 143, 83)
 }
